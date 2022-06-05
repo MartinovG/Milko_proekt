@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+
+body{
+    background-color: #2b2d42;
+  }
+
+.snimka {
+  display: block;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+  width: 100%;
+  /*filter: blur(6px);
+  -webkit-filter: blur(6px);
+  */
+}
+
+body {
+  font-family:"Montserrat", sans-serif;
+  color: #edf2f4;
+}
+
+h2 {
+  text-align: center;
+  padding: 4px;
+  font-size: 30px;
+}
+
+h3 {
+  text-align: center;
+  padding: 2px;
+}
+
+p {
+  text-align: center;
+  font-size: 17px;
+  padding: 4px;
+}
+

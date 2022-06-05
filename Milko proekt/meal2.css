@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:500");
+
+body {
+  background-color: #2b2d42;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.recipe_page {
+  font-family: "Montserrat", sans-serif;
+  color: #edf2f4;
+}
+
+.title{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    align-items: center;
+}
+
+.mini_navbar{
+  display: flex;
+  width: 40px;
+  height: 40px;
+  margin-top: -75px;
+  gap: 5px;
+}
+
+.main_image{
+  height: 450px;
+  width: 450px;
+  border-radius: 10px;
+}
+
+.btn_right , .btn_left{
+height: 30px;
+width: 30px;
+}
+
+.table-layout {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 85px;
+  align-items: center;
+}
+
+table{
+    padding: 6px;
+    line-height:40px;
+    border: 5px solid #1e2031c7;
+    text-align: center;
+    margin-top: -300px;
+}
+
+th{
+  border-bottom:1px solid #d90429;
+  width: 100px;
+}
+
+.recipe_icons{
+  display: flex;
+  text-align: center;
+  padding-left: 40px;
+  gap: 80px;
+}
+
+.image{
+  margin-top: 10px;
+  height: 50px;
+  width: 50px;
+}
+
+h5{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-style: bold;
+  font-size: 17px;
+}
+
+.text{
+  margin-top: 0px;
+  font-size: 14px;
+}

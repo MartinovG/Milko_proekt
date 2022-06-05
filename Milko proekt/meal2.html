@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Bulk/cut</title>
+    <link href="meal2.css" rel="stylesheet" />
+  </head>
+
+
+  <body>
+    <div class="page">
+        <div class="recipe_page">
+            <div class="top">
+              <p class="title">Спагети Болонезе</p>
+              <div class="mini_navbar">
+                <img class="mini_menu" src="images/menu_mini.png">
+                <img class="mini_menu" src="images/home_mini.png">
+                <img class="mini_menu" src="images/cut_mini.png">
+                <img class="mini_menu" src="images/bulk_mini.png">
+              </div>
+            </div>
+              <div class="table-layout">
+                <img src="images/big-batch-bolognese.png" class="main_image" alt="bolognese"/>
+                <div class="btn">
+                <button onclick="changeImageToSecond()"class="btn_right"></button>
+                <button onclick="changeImageToFirst()"class="btn_left"></button>
+                </div>
+                <table>
+                    <caption>
+                      Хранителна стойност за порция
+                    </caption>
+                    <tr>
+                      <th>Калории</th>
+                      <th>Мазнини</th>
+                      <th>Наситени</th>
+                      <th>Захари</th>
+                      <th>Сол</th>
+                      <th>Протеини</th>
+                      <th>Въглехидрати</th>
+                      <th>Фибри</th>
+                    </tr>
+                    <tr>
+                      <td>618</td>
+                      <td>15,6g</td>
+                      <td>5,7g</td>
+                      <td>12,3g</td>
+                      <td>2,4g</td>
+                      <td>37,6g</td>
+                      <td>78,5g</td>
+                      <td>3,2g</td>
+                    </tr>
+                  </table>
+              </div>
+                <div class="recipe_icons">
+                    <div class="prep_time">
+                        <img src="images/time.png" class="image">
+                        <h5>Време</h5>
+                        <p class="text">1 час 55 мин.</p>
+                    </div>
+                    <div class="servings">
+                        <img src="images/portions.png" class="image">
+                        <h5>Порции</h5>
+                        <p class="text">12 порции</p>
+                    </div>
+                    <div class="difficulty">
+                        <img src="images/difficulty.png" class="image">
+                        <h5>Трудност</h5>
+                        <p class="text">Лесна</p>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <script src="meal2.js"></script>
+  </body>
+</html>
