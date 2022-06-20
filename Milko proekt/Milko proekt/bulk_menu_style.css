@@ -1,0 +1,49 @@
+
+body{
+  background-color: #2b2d42;
+}
+
+.recipes {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  justify-content: center;
+}
+.itemholder {
+  display: block;
+  background:#1e2031c7;
+  padding: 20px;
+  margin: 20px;
+  border: 3px solid #1e2031c7;
+  border-radius: 10px;
+}
+.itemholder:hover{
+  border-color: #d90429;
+}
+.text {
+  font-family: "Montserrat", sans-serif;
+  color: #edf2f4;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  max-width: 250px;
+  text-align: center;
+}
+.image {
+  height: 250px;
+  width: 250px;
+}
+.show {
+  font-family:"Montserrat", sans-serif;
+  display: block;
+  float: right;
+  margin-top: 70px;
+  max-width: 175px;
+  padding: 6px;
+  line-height:30px;
+  color: #edf2f4;
+}
+.hide {
+  display: none;
+}

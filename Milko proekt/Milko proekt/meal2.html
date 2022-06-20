@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="meal2.css" rel="stylesheet" />
+    <link href="mini_navbar.css" rel="stylesheet" />
+  </head>
+  <body>
+    <p class="title">Спагети Болонезе</p>
+
+    <div id="menu">
+      <div id="menu-bar" onclick="menuOnClick()">
+        <div id="bar1" class="bar"></div>
+        <div id="bar2" class="bar"></div>
+        <div id="bar3" class="bar"></div>
+      </div>
+      <nav class="nav" id="nav">
+        <ul>
+          <li><a href="home_page.html">Начало</a></li>
+          <li><a href="bulk_menu.html">Бълк</a></li>
+          <li><a href="cut_menu.html">Кът</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="menu-bg" id="menu-bg"></div>
+  </div>
+
+    <div class="info">
+      <table>
+        <caption>
+          Хранителна стойност за порция
+        </caption>
+        <tr>
+          <th>Калории</th>
+          <th>Мазнини</th>
+          <th>Наситени</th>
+          <th>Захари</th>
+          <th>Сол</th>
+          <th>Протеини</th>
+          <th>Въглехидрати</th>
+          <th>Фибри</th>
+        </tr>
+        <tr>
+          <td>618</td>
+          <td>15,6g</td>
+          <td>5,7g</td>
+          <td>12,3g</td>
+          <td>2,4g</td>
+          <td>37,6g</td>
+          <td>78,5g</td>
+          <td>3,2g</td>
+        </tr>
+      </table>
+    </div>
+  <div class="images">
+    <img class="mySlides fade"
+    src="images/big-batch-bolognese.png"
+    alt="bolognese"
+    />
+    <img class="mySlides fade"
+    src="images/bolonese2.png"
+    alt="bolognese"
+    />
+    <div class="recipe_icons">
+      <div class="prep_time">
+        <img src="images/time.png" class="icon" />
+        <h5>Време</h5>
+        <p class="text">1 час 15 мин.</p>
+      </div>
+      <div class="servings">
+        <img src="images/portions.png" class="icon" />
+        <h5>Порции</h5>
+        <p class="text">6 порции</p>
+      </div>
+      <div class="difficulty">
+        <img src="images/difficulty.png" class="icon" />
+        <h5>Трудност</h5>
+        <p class="text">Лесна</p>
+      </div>
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+
+
+  </div>
+    <div class="main">
+      <ul class="ingredients">
+        <li class="row">2 скилидки чесън</li>
+        <li class="row">1 глава лук</li>
+        <li class="row">2 стръка пресен розмарин</li>
+        <li class="row">6 изсушен пушен бекон</li>
+        <li class="row">зехтин</li>
+        <li class="row">500g телешка кайма</li>
+        <li class="row">200ml червено вино</li>
+        <li class="row">280g буркан сушени домати</li>
+        <li class="row">800g консервирани сушени домати</li>
+        <li class="row">500g спагети</li>
+        <li class="row">сирене пармезан</li>
+        <li class="row">екстра необработен зехтин</li>
+      </ul>
+      <div class="recipe">
+        <p>
+          ・Предварително затоплете печката на 180ºC
+・Обелете и нарежете фино чесъна и лука, нарежете розмарина на ситно и нарежете бекона фино
+・Загрейте струйка олио в тиган на средна температура, добавете бекона, розмарина, чесъна и лука и гответе за 5 минути или докато не омекне, като разбърквате от време на време
+・Добавете каймата, разбивайки я с гърба на лъжица, след това гответе за 2 до 3 минути или докато не започне да потъмнява, след това изсипете виното. Нека започнат да се появяват балончета.
+・Междувременно изцедете и пресипете изсушените на слънце домати в миксер, миксирайте до паста, след което добавете към тигана с доматите. Разбъркайте добре
+・Покрийте с капак, след това поставете във фурната за 1 час, след 30 минути извадете капака и разбърквате - ако на този етап изглежда малко сухо, добавете 1/3 чаша вода
+・Около 10 минути преди времето да изтече, гответе спагетите във вряща солена вода според инструкциите на пакета.
+・След като спагетите се приготвят, отцедете ги от водата, след което се върнете в тигана с няколко лъжици болонезе, настърган пармезан и капка от екстра върджин зехтин.
+・Разпределете спагетите между чинии или купи, добавете голяма лъжица болонезе към всяка, след което сервирайте с фина щипка настърган пармезан.
+        </p>
+      </div>
+    </div>
+    <script src="meal2.js"></script>
+    <script src="mini_navbar.js"></script>
+  </body>
+</html>
